@@ -1,6 +1,6 @@
 // src/app/router.tsx
 
-import { createBrowserRouter } from 'react-router-dom'
+import { createHashRouter } from 'react-router-dom'
 
 import { Layout } from '@/widgets/layout/ui/Layout'
 import HomePage from '@/pages/home/ui/HomePage'
@@ -12,7 +12,7 @@ import EditAdPage from '@/pages/ad/edit/ui/EditAdPage'
 
 import { RequireAuth } from '@/shared/lib/RequireAuth'
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     element: (
