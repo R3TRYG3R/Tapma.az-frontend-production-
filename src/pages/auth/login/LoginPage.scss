@@ -1,0 +1,87 @@
+// src/pages/auth/login/LoginPage.scss
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--bg-color);
+  padding: 2rem;
+  color: var(--text-color);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.login-card {
+  position: relative;
+  display: flex;
+  gap: 4rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--box-shadow);
+  padding: 3rem;
+  max-width: 1100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  transition: background 0.5s ease, box-shadow 0.5s ease;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.65rem;
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ff4d4f;
+    }
+  }
+}
+
+.login-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    transition: color 0.5s ease;
+  }
+
+  p {
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    opacity: 0.9;
+    transition: color 0.5s ease;
+  }
+
+  .login-illustration {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+
+    @media (max-width: 900px) {
+      max-width: 300px;
+    }
+  }
+}
+
+.login-form-wrapper {
+  flex: 1;
+  max-width: 400px;
+}

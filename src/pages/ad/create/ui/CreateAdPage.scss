@@ -1,0 +1,11 @@
+// src/pages/ad/create/ui/CreateAdPage.scss
+
+.create-ad-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: calc(100vh - /* header height */ 76px - /* footer height */ 60px);
+  background: var(--bg-color);
+  color: var(--text-color);
+}

@@ -1,0 +1,84 @@
+{
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "create_account": "Create an account",
+    "nickname": "Nickname",
+    "email": "Email",
+    "password": "Password",
+    "loading": "Loading...",
+    "user_exists": "User already exists",
+    "invalid_email": "Invalid email",
+    "user_not_found": "User not found",
+    "wrong_password": "Incorrect password",
+    "unknown_error": "Something went wrong",
+    "too_many_attempts_please_wait_a_few_seconds": "Too many attempts. Please wait a few seconds.[Please don't break my backend :)]",
+    "email_already_in_use": "This email is already registered",
+    "invalid_password": "Invalid password",
+    "logout": "Logout",
+    "failed_to_fetch": "Check ur connection"
+  },
+
+  "home": {
+    "title": "Welcome to Tapma.az",
+    "subtitle": "Find what you've been looking for",
+    "search_placeholder": "Search ads...",
+    "no_more_ads": "No more ads :("
+  },
+
+  "register": {
+    "welcome": "Welcome to Tapma.az",
+    "subtitle": "Find what you've been looking for. Join in 10 seconds."
+  },
+
+  "login": {
+    "welcome": "Welcome back!",
+    "subtitle": "Login to continue to Tapma.az",
+    "account": "Login to your account",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "loading": "Logging in...",
+    "error": "Invalid email or password"
+  },
+
+  "profile": {
+    "title": "Your Profile",
+    "subtitle": "Manage your account settings",
+    "upload_avatar": "Upload new profile picture",
+    "remove_avatar": "Remove profile picture",
+    "error_file_too_large": "File is too large. Max size is 5MB.",
+    "error_invalid_type": "Only JPG, PNG, and GIF files are allowed.",
+    "my_ads": "Your Ads"
+  },
+
+  "header": {
+    "create_ad": "Create Ad"
+  },
+
+  "create": {
+    "title": "Create a New Ad",
+    "subtitle": "Fill in the details below",
+    "placeholder_title": "Title",
+    "placeholder_description": "Description",
+    "choose_file": "Choose file",
+    "submit": "Create",
+    "success": "Ad successfully created!",
+    "error_title_required": "Title is required.",
+    "error_description_required": "Description is required.",
+    "error_title_limit": "Title must be at most 22 characters.",
+    "error_description_limit": "Description must be at most 50 characters.",
+    "error_file_too_large": "File is too large. Max size is 5MB.",
+    "error_invalid_type": "Only JPG, PNG, and WEBP files are allowed.",
+    "maximum_5_ads_per_user": "You can create up to 5 ads only",
+    "confirm_delete": "Are you sure you want to delete this ad?",
+    "deleted_success": "Ad deleted successfully",
+    "you_can_only_update_delete_your_own_ads": "You can only update/delete your own ads"
+  },
+
+  "edit": {
+    "title": "Edit Ad",
+    "save": "Save Changes",
+    "success": "Ad updated successfully!"
+  }
+}
