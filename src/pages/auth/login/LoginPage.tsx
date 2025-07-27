@@ -17,7 +17,11 @@ const LoginPage = () => {
         <div className="login-info">
           <h1>{t('login.welcome')}</h1>
           <p>{t('login.subtitle')}</p>
-          <img src="/illustration2.svg" alt="login" className="login-illustration" />
+          <img
+            src={`${import.meta.env.BASE_URL}illustration2.svg`}
+            alt="login"
+            className="login-illustration"
+          />
         </div>
 
         <div className="login-form-wrapper">

@@ -20,7 +20,7 @@ const RegisterPage = () => {
           <h1>{t('register.welcome')}</h1>
           <p>{t('register.subtitle')}</p>
           <img
-            src="/illustration.svg"
+            src={`${import.meta.env.BASE_URL}illustration.svg`}
             alt="welcome"
             className="register-illustration"
           />
