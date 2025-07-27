@@ -16,7 +16,9 @@
     "email_already_in_use": "Эта почта уже зарегистрирована",
     "invalid_password": "Неверный пароль",
     "logout": "Выйти из аккаунта",
-    "failed_to_fetch": "Проверь соеденение"
+    "failed_to_fetch": "Проверь соеденение",
+    "nickname_too_short": "Ник должен быть не короче 3 символов",
+    "nickname_too_long": "Ник не должен превышать 15 символов"
   },
 
   "home": {

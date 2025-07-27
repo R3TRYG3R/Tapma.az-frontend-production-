@@ -16,7 +16,9 @@
     "email_already_in_use": "This email is already registered",
     "invalid_password": "Invalid password",
     "logout": "Logout",
-    "failed_to_fetch": "Check ur connection"
+    "failed_to_fetch": "Check ur connection",
+    "nickname_too_short": "Nickname must be at least 3 characters",
+    "nickname_too_long": "Nickname must be no more than 15 characters"
   },
 
   "home": {

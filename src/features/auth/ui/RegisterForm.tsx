@@ -10,11 +10,22 @@ export const RegisterForm = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [nickname, setNickname] = useState('')
-  const { register, loading, error } = useRegister()
+  const { register, loading } = useRegister()
   const { t } = useTranslation()
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (nickname.length < 3) {
+      toast.error(t('auth.nickname_too_short') || 'Nickname is too short')
+      return
+    }
+
+    if (nickname.length > 15) {
+      toast.error(t('auth.nickname_too_long') || 'Nickname is too long')
+      return
+    }
+
     register(email, password, nickname).catch(err => {
       const key = err.message.toLowerCase().replace(/[^a-z0-9]+/g, '_')
       toast.error(t(`auth.${key}`) || t('auth.unknown_error'))
@@ -31,6 +42,7 @@ export const RegisterForm = () => {
         value={nickname}
         onChange={e => setNickname(e.target.value)}
         required
+        maxLength={15}
       />
 
       <input
